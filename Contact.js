@@ -21,13 +21,13 @@ var Contact = React.createClass({
   render: function () {
     var login = (
       <form onSubmit={this.authorize} action="#">
-      	<input type="password" placeholder="Password"/>        
-  	<button type="button" input type="submit">Submit</button>
+        <input type="password" placeholder="Password"/>        
+    <button type="button" input type="submit">Submit</button>
       </form>
     );
     
     var contactInfo = (
-    	<ul>
+      <ul>
           <li>
             client@example.com
           </li>
